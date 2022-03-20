@@ -1,0 +1,30 @@
+Data field,Description,Type
+Id,Player's Id,object
+groupId,ID to identify a group within a match,object
+matchId, ID to identify match,object
+matchType,String identifing the game mode that the data comes from,object
+assists,Number of enemy players this player damaged that were killed by teammates,int64
+boosts,Number of boost items used,int64
+damageDealt,Total damage dealt,float64
+DBNOs,Number of enemy players knocked,int64
+headshotKills,Number of enemy players killed with headshots,int64
+heals,Number of healing items used,int64
+killPlace,Ranking in match of number of enemy players killed,int64
+killPoints,Kills-based external ranking of player,int64
+killStreaks,Max number of enemy players killed in a short amount of time,int64
+kills,Number of enemy players killed,int64
+longestKill,Longest distance between player and player killed at time of death,float64
+matchDuration,Duration of match in seconds,int64
+rankPoints,Elo-like ranking of player,int64
+revives,Number of times this player revived teammates,int64
+rideDistance,Total distance traveled in vehicles measured in meters,int64
+roadKills,Number of kills while in a vehicle,int64
+swimDistance,Total distance traveled by swimming measured in meters,float64
+teamKills,Number of times this player killed a teammate,int64
+vehicleDestroys,Number of vehicles destroyed,int64
+walkDistance,Total distance traveled on foot measured in meters,float64
+weaponsAcquired,Number of weapons picked up,int64
+winPoints,Win-based external ranking of player,int64
+numGroups,Number of groups we have data for in the match,int64
+maxPlace,Worst placement we have data for in the match,int64
+winPlacePerc,The target of prediction,float64
